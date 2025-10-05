@@ -131,3 +131,6 @@ unset __conda_setup
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+# Set up fzf key bindings and fuzzy completion
+source <(fzf --zsh)
