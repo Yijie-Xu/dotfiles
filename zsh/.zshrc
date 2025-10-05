@@ -134,3 +134,7 @@ source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Set up fzf key bindings and fuzzy completion
 source <(fzf --zsh)
+
+# FZF
+export FZF_CTRL_T_COMMAND="rg --files"
+export FZF_DEFAULT_COMMAND=$FZF_CTRL_T_COMMAND
