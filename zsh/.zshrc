@@ -147,3 +147,7 @@ function y() {
 	[ -n "$cwd" ] && [ "$cwd" != "$PWD" ] && builtin cd -- "$cwd"
 	rm -f -- "$tmp"
 }
+
+# Neovide, macOS only
+export NEOVIDE_FRAME=buttonless
+export NEOVIDE_TITLE_HIDDEN=1
