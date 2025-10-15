@@ -4,6 +4,10 @@
 
 vim.opt.conceallevel = 0
 
+if vim.g.neovide then
+  vim.o.guifont = "Maple Mono NF CN:h16"
+end
+
 -- LSP Server to use for Python.
 -- Set to "basedpyright" to use basedpyright instead of pyright.
 vim.g.lazyvim_python_lsp = "pyright"
