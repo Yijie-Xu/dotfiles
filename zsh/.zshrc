@@ -151,3 +151,6 @@ function y() {
 # Neovide, macOS only
 export NEOVIDE_FRAME=buttonless
 export NEOVIDE_TITLE_HIDDEN=1
+
+# import aliases
+source $HOME/.zsh_aliases
