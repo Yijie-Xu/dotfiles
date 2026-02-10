@@ -66,7 +66,7 @@ done
 # only the properties deviating from the current defaults need to be set
 
 sketchybar --add item chevron left \
-           --set chevron icon= label.drawing=off \
+           --set chevron icon= label.drawing=off
 source "$ITEM_DIR/front_app.sh"
 
 
