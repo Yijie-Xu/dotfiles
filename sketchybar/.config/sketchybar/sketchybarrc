@@ -7,7 +7,7 @@ FONT_SF="SF Pro"
 FONT_FACE="Maple Mono NF CN"
 PLUGIN_DIR="$CONFIG_DIR/plugins"
 ITEM_DIR="$CONFIG_DIR/items"
-
+PADDINGS=3
 
 source "$CONFIG_DIR/colors.sh"
 source "$CONFIG_DIR/icons.sh"
@@ -19,8 +19,24 @@ source "$CONFIG_DIR/icons.sh"
 # https://felixkratz.github.io/SketchyBar/config/bar
 # If you are looking for other colors, see the color picker:
 # https://felixkratz.github.io/SketchyBar/config/tricks#color-picker
+bar=(
+  height=35
+  color=$BAR_COLOR
+  shadow=on
+  position=top
+  sticky=on
+  padding_right=10
+  padding_left=10
+  corner_radius=9
+  y_offset=5
+  margin=10
+  blur_radius=20
+  notch_width=0
+)
 
-sketchybar --bar position=top height=40 blur_radius=30 color=0x40000000
+
+sketchybar --bar "${bar[@]}"
+# sketchybar --bar position=top height=40 blur_radius=30 color=0x40000000
 
 ##### Changing Defaults #####
 # We now change some default values, which are applied to all further items.
@@ -28,16 +44,25 @@ sketchybar --bar position=top height=40 blur_radius=30 color=0x40000000
 # https://felixkratz.github.io/SketchyBar/config/items
 
 default=(
-  padding_left=5
-  padding_right=5
+  updates=when_shown
   icon.font="$FONT_FACE:Bold:17.0"
   label.font="$FONT_FACE:Bold:14.0"
-  icon.color=0xffffffff
-  label.color=0xffffffff
-  icon.padding_left=4
-  icon.padding_right=4
-  label.padding_left=4
-  label.padding_right=4
+  icon.color=$ICON_COLOR
+  label.color=$LABEL_COLOR
+  icon.padding_left=$PADDINGS
+  icon.padding_right=$PADDINGS
+  label.padding_left=$PADDINGS
+  label.padding_right=$PADDINGS
+  padding_left=$PADDINGS
+  padding_right=$PADDINGS
+  background.height=30
+  background.corner_radius=9
+  popup.background.border.width=2
+  popup.background.corner_radius=9
+  popup.background.border_color=$POPUP_BORDER_COLOR
+  popup.background.color=$POPUP_BACKGROUND_COLOR
+  popup.blur_radius=20
+  popup.background.shadow.drawing=on
 )
 sketchybar --default "${default[@]}"
 
