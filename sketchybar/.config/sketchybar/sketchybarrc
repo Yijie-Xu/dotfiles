@@ -3,10 +3,14 @@
 # For a (much) more advanced configuration example see my dotfiles:
 # https://github.com/FelixKratz/dotfiles
 
+FONT_SF="SF Pro"
 FONT_FACE="Maple Mono NF CN"
 PLUGIN_DIR="$CONFIG_DIR/plugins"
 ITEM_DIR="$CONFIG_DIR/items"
 
+
+source "$CONFIG_DIR/colors.sh"
+source "$CONFIG_DIR/icons.sh"
 
 
 ##### Bar Appearance #####
@@ -37,6 +41,7 @@ default=(
 )
 sketchybar --default "${default[@]}"
 
+source "$ITEM_DIR/apple.sh"
 source "$ITEM_DIR/spaces.sh"
 source "$ITEM_DIR/front_app.sh"
 
