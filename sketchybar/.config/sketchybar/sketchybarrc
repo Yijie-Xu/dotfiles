@@ -22,7 +22,7 @@ source "$CONFIG_DIR/icons.sh"
 bar=(
   height=35
   color=$BAR_COLOR
-  shadow=on
+  shadow=off
   position=top
   sticky=on
   padding_right=10
@@ -57,7 +57,7 @@ default=(
   padding_right=$PADDINGS
   background.height=30
   background.corner_radius=9
-  popup.background.border.width=2
+  popup.background.border_width=2
   popup.background.corner_radius=9
   popup.background.border_color=$POPUP_BORDER_COLOR
   popup.background.color=$POPUP_BACKGROUND_COLOR
