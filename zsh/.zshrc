@@ -154,3 +154,6 @@ export NEOVIDE_TITLE_HIDDEN=1
 
 # import aliases
 source $HOME/.zsh_aliases
+
+# import private config
+source $HOME/.zsh_private
