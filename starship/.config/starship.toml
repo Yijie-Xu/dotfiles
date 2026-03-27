@@ -29,7 +29,7 @@ palette = 'catppuccin_mocha'
 # palette = 'tokyo_night'
 
 # Inserts a blank line between shell prompts
-add_newline = false
+add_newline = true
 
 [palettes.catppuccin_mocha]
 foreground = '#D9E0EE'
@@ -63,9 +63,47 @@ red = '#F7768E'
 yellow = '#E5C07B'
 status = "#e23140"
 
+# [os]
+# format = '(fg:current_line)[](fg:red)[](fg:primary bg:red)[](fg:red)'
+# disabled = false
+
 [os]
-format = '(fg:current_line)[](fg:red)[](fg:primary bg:red)[](fg:red)'
+format = '(fg:current_line)[](fg:red)[$symbol ](fg:primary bg:red)[](fg:red)'
 disabled = false
+
+[os.symbols]
+Alpine = ''
+Amazon = ''
+Android = ''
+Arch = ''
+CentOS = ''
+Debian = ''
+EndeavourOS = ''
+Fedora = ''
+FreeBSD = ''
+Garuda = ''
+Gentoo = ''
+Linux = ''
+Macos = ''
+Manjaro = ''
+Mariner = ''
+Mint = ''
+NetBSD = ''
+NixOS = ''
+OpenBSD = ''
+OpenCloudOS = ''
+openEuler = ''
+openSUSE = ''
+OracleLinux = '⊂⊃'
+Pop = ''
+Raspbian = ''
+Redhat = ''
+RedHatEnterprise = ''
+Solus = ''
+SUSE = ''
+Ubuntu = ''
+Unknown = ''
+Windows = ''
 
 [status]
 format = "[─](fg:current_line)[](fg:status)[](fg:primary bg:status)[](fg:status bg:box)[ $status](fg:foreground bg:box)[](fg:box)"
