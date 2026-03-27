@@ -157,3 +157,6 @@ source $HOME/.zsh_aliases
 
 # import private config
 source $HOME/.zsh_private
+
+# use starship (this should be at the end of .zshrc)
+eval "$(starship init zsh)"
