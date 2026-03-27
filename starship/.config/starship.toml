@@ -29,7 +29,7 @@ palette = 'catppuccin_mocha'
 # palette = 'tokyo_night'
 
 # Inserts a blank line between shell prompts
-add_newline = true
+add_newline = false
 
 [palettes.catppuccin_mocha]
 foreground = '#D9E0EE'
@@ -68,7 +68,7 @@ status = "#e23140"
 # disabled = false
 
 [os]
-format = '(fg:current_line)[](fg:red)[$symbol ](fg:primary bg:red)[](fg:red)'
+format = '(fg:current_line)[](fg:red)[](fg:primary bg:red)[](fg:red)'
 disabled = false
 
 [os.symbols]
