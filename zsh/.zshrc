@@ -148,6 +148,11 @@ function y() {
 	rm -f -- "$tmp"
 }
 
+# Bat theme
+export BAT_THEME="Catppuccin Mocha"
+
+
+
 # Neovide, macOS only
 export NEOVIDE_FRAME=buttonless
 export NEOVIDE_TITLE_HIDDEN=1
