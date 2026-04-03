@@ -157,6 +157,9 @@ export BAT_THEME="Catppuccin Mocha"
 # zoxide
 eval "$(zoxide init zsh)"
 
+# eza
+export EZA_CONFIG_DIR="$HOME/.config/eza"
+
 # Neovide, macOS only
 export NEOVIDE_FRAME=buttonless
 export NEOVIDE_TITLE_HIDDEN=1

@@ -3,7 +3,7 @@ alias v="nvim"
 alias nv="neovide"
 
 # eza
-alias l="eza -lah --git"
+alias l="eza -lah --git --icons=auto"
 
 # clear
 alias c="clear"
