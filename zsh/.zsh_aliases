@@ -1,3 +1,9 @@
 # neovim
 alias v="nvim"
 alias nv="neovide"
+
+# eza
+alias l="eza -lah --git"
+
+# clear
+alias c="clear"
