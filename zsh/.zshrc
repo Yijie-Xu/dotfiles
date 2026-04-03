@@ -153,7 +153,8 @@ function y() {
 # Bat theme
 export BAT_THEME="Catppuccin Mocha"
 
-
+# zoxide
+eval "$(zoxide init zsh)"
 
 # Neovide, macOS only
 export NEOVIDE_FRAME=buttonless
