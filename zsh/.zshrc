@@ -140,6 +140,7 @@ source <(fzf --zsh)
 # FZF
 export FZF_CTRL_T_COMMAND="rg --files"
 export FZF_DEFAULT_COMMAND=$FZF_CTRL_T_COMMAND
+source $HOME/.config/fzf/catppuccin/fzf/themes/catppuccin-fzf-mocha.sh
 
 # YAZI
 function y() {
