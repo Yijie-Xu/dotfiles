@@ -77,7 +77,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git colored-man-pages command-not-found extract)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -133,6 +133,8 @@ source $HOME/.zsh/plugins/catppuccin/zsh-syntax-highlighting/themes/catppuccin_m
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+source $(brew --prefix)/opt/zsh-vi-mode/share/zsh-vi-mode/zsh-vi-mode.plugin.zsh
 
 # Set up fzf key bindings and fuzzy completion
 source <(fzf --zsh)
