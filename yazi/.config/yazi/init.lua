@@ -6,3 +6,7 @@ require("starship"):setup({
 	hide_count = false,
 	count_seperator = " ",
 })
+
+require("full-border"):setup({
+	type = ui.Border.ROUNDED,
+})
