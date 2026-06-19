@@ -160,7 +160,7 @@ export BAT_THEME="Catppuccin Mocha"
 eval "$(zoxide init zsh)"
 
 # atuin
-eval "$(atuin init zsh)"
+zvm_after_init_commands+=(eval "$(atuin init zsh)")
 
 # eza
 export EZA_CONFIG_DIR="$HOME/.config/eza"
