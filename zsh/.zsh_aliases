@@ -7,3 +7,6 @@ alias l="eza -lah --git --icons=auto"
 
 # clear
 alias c="clear"
+
+# kitty
+alias kssh="kitten ssh"
