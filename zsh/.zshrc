@@ -136,6 +136,9 @@ source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 source $(brew --prefix)/opt/zsh-vi-mode/share/zsh-vi-mode/zsh-vi-mode.plugin.zsh
 
+# Set XDG_CONFIG_HOME
+export XDG_CONFIG_HOME="$HOME/.config"
+
 # Set up fzf key bindings and fuzzy completion
 source <(fzf --zsh)
 
