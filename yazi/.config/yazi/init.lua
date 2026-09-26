@@ -4,7 +4,7 @@ require("starship"):setup({
 	config_file = "~/.config/starship_full.toml",
 	show_right_prompt = false,
 	hide_count = false,
-	count_seperator = " ",
+	count_separator = " ",
 })
 
 require("full-border"):setup({
