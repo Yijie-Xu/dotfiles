@@ -34,7 +34,7 @@ for sid in "$@"; do
       [ -n "$app" ] || continue
 
       __icon_map "$app"
-      icons+="${icons:= }$icon_result"
+      icons+="${icons:+ }$icon_result"
     done <<<"$window_info"
 
     [ -n "$icons" ] && label_drawing=on
