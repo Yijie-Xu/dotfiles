@@ -5,11 +5,7 @@ config-version = 2
 
 persistent-workspaces = []
 
-exec-on-workspace-change = [
-  '/bin/bash',
-  '-c',
-  'sketchybar --trigger aerospace_workspace_change FOCUSED_WORKSPACE=$AEROSPACE_FOCUSED_WORKSPACE',
-]
+on-focus-changed = ['exec-and-forget sketchybar --trigger aerospace_update']
 
 # You can use it to add commands that run after AeroSpace startup.
 # Available commands : https://nikitabobko.github.io/AeroSpace/commands
