@@ -31,7 +31,7 @@ done
 args+=(
   --add item chevron left
   --set chevron
-  icon=1
+  icon=
   label.drawing=off
 
   --add item aerospace left
