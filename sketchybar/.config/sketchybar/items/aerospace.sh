@@ -12,6 +12,8 @@ for sid in "${workspaces[@]}"; do
     --set "workspace.$sid"
     drawing=off
     updates=off
+    padding_left=5
+    padding_right=5
     icon="$sid"
     icon.font="$FONT_FACE:Bold:12.0"
     icon.padding_left=7
@@ -34,7 +36,7 @@ args+=(
   --add bracket workspaces '/^workspace\..*/'
   --set workspaces
   background.drawing=on
-  background.color="$BACKGROUND_4"
+  background.color="$BACKGROUND_1"
   background.border_color="$BACKGROUND_5"
   background.border_width=2
   background.corner_radius=8
