@@ -16,7 +16,7 @@ for sid in "${workspaces[@]}"; do
     padding_right=5
     icon="$sid"
     icon.font="$FONT_FACE:Bold:12.0"
-    icon.padding_left=7
+    icon.padding_left=5
     icon.padding_right=5
     label=""
     label.drawing=off
