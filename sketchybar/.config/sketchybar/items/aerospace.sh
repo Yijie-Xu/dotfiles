@@ -13,20 +13,35 @@ for sid in "${workspaces[@]}"; do
     drawing=off
     updates=off
     icon="$sid"
+    icon.font="$FONT_FACE:Bold:12.0"
     icon.padding_left=7
-    icon.padding_right=7
+    icon.padding_right=5
     label=""
     label.drawing=off
-    label.font="sketchybar-app-font:Regular:16.0"
-    label.padding_left=0
-    label.padding_right=7
-    background.color=0x40ffffff
+    label.font="sketchybar-app-font:Regular:12.0"
+    label.y_offset=-1
+    label.padding_left=2
+    label.padding_right=5
+    background.color="$BACKGROUND_3"
     background.corner_radius=5
-    background.height=25
+    background.height=20
     background.drawing=off
     click_script="aerospace workspace '$sid'"
   )
 done
+
+args+=(
+  --add bracket workspaces '/^workspace\..*/'
+  --set workspaces
+  background.drawing=on
+  background.color="$BACKGROUND_4"
+  background.border_color="$BACKGROUND_5"
+  background.border_width=2
+  background.corner_radius=8
+  background.height=30
+  background.padding_left=4
+  background.padding_right=4
+)
 
 args+=(
   --add item chevron left
