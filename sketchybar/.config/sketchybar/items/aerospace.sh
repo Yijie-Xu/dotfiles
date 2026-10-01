@@ -39,8 +39,8 @@ args+=(
   background.border_width=2
   background.corner_radius=8
   background.height=30
-  background.padding_left=4
-  background.padding_right=4
+  background.padding_left=7
+  background.padding_right=7
 )
 
 args+=(
