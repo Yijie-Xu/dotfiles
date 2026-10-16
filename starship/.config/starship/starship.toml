@@ -72,7 +72,7 @@ status = "#e23140"
 # disabled = false
 
 [os]
-format = '(fg:current_line)[](fg:red)[](fg:primary bg:red)[](fg:red)'
+format = '(fg:current_line)[](fg:red)[$symbol](fg:primary bg:red)[](fg:red)'
 disabled = false
 
 [os.symbols]
