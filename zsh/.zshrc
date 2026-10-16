@@ -182,4 +182,5 @@ source $HOME/.zsh_aliases
 source $HOME/.zsh_private
 
 # use starship (this should be at the end of .zshrc)
+export STARSHIP_CONFIG="$HOME/.config/starship/starship.toml"
 eval "$(starship init zsh)"
