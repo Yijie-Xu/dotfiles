@@ -107,6 +107,11 @@ input {
     position x=1280 y=0
 }
 
+output "Virtual-1" {
+  mode "1920x1200@59.885"
+  scale 1.25
+}
+
 // Settings that influence how windows are positioned and sized.
 // Find more information on the wiki:
 // https://niri-wm.github.io/niri/Configuration:-Layout
