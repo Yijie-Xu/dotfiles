@@ -1,5 +1,13 @@
 # Oh My Zsh
-export ZSH="$HOME/.oh-my-zsh"
+case "$OSTYPE" in
+  darwin*)
+    export ZSH="$HOME/.oh-my-zsh"
+    ;;
+
+  linux*)
+    export ZSH="/usr/share/oh-my-zsh"
+    ;;
+esac
 plugins=(git colored-man-pages command-not-found extract)
 source "$ZSH/oh-my-zsh.sh"
 
