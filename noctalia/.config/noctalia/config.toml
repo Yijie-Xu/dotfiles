@@ -3,3 +3,13 @@ mode = "dark"
 
 [bar.default]
 position = "top"
+
+[idle.behavior.lock]
+timeout = 600
+action = "lock"
+enabled = true
+
+[idle.behavior.screen-off]
+timeout = 1800
+action = "screen_off"
+enabled = true
