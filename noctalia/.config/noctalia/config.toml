@@ -13,3 +13,6 @@ enabled = true
 timeout = 1800
 action = "screen_off"
 enabled = true
+
+[wallpaper]
+directory = "~/pictures/wallpapers"
