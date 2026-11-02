@@ -362,7 +362,9 @@ window-rule {
   open-floating true
 }
 
-
+window-rule {
+  draw-border-with-background false
+}
 
 binds {
     // Keys consist of modifiers separated by + signs, followed by an XKB key name
