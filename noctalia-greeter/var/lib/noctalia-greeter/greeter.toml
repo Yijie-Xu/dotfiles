@@ -1,0 +1,20 @@
+[session]
+default = "Niri"
+
+[appearance]
+scheme = "Synced"
+password_style = "default"
+hide_logo = false
+
+[clock]
+enabled = true
+position = "above-panel"
+time_format = "{:%H:%M}"
+date_format = "%A, %x"
+
+[output]
+use_synced_settings = true
+
+[auth]
+allow_empty_password = false
+request_timeout = 60
