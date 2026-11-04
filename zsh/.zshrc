@@ -34,6 +34,9 @@ esac
 # Add Julia bin to PATH
 export PATH="$HOME/.julia/bin:$PATH"
 
+# Add user-local bin to PATH
+export PATH="$HOME/.local/bin:$PATH"
+
 # Set XDG_CONFIG_HOME
 export XDG_CONFIG_HOME="$HOME/.config"
 
