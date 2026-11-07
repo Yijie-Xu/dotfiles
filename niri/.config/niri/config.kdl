@@ -4,7 +4,7 @@
 // https://niri-wm.github.io/niri/Configuration:-Introduction
 
 // Environment configuration.
-envorinment {
+environment {
   QT_QPA_PLATFORMTHEME "qt6ct"
 }
 
