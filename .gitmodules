@@ -7,3 +7,6 @@
 [submodule "tmux-plugins/tpm"]
 	path = tmux/.config/tmux/tpm
 	url = https://github.com/tmux-plugins/tpm.git
+[submodule "catppuccin/grub"]
+	path = grub/catppuccin/grub
+	url = https://github.com/catppuccin/grub.git
