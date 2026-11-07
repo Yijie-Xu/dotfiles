@@ -3,6 +3,12 @@
 // Check the wiki for a full description of the configuration:
 // https://niri-wm.github.io/niri/Configuration:-Introduction
 
+// Environment configuration.
+envorinment {
+  QT_QPA_PLATFORMTHEME "qt6ct"
+}
+
+
 // Input device configuration.
 // Find the full list of options on the wiki:
 // https://niri-wm.github.io/niri/Configuration:-Input
