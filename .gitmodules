@@ -10,3 +10,6 @@
 [submodule "catppuccin/grub"]
 	path = grub/catppuccin/grub
 	url = https://github.com/catppuccin/grub.git
+[submodule "catppuccin/qt5ct"]
+	path = qt/.config/qt6ct/catppuccin/qt5ct
+	url = https://github.com/catppuccin/qt5ct.git
