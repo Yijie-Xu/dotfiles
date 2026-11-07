@@ -4,7 +4,7 @@ default = "Niri"
 [appearance]
 scheme = "Synced"
 password_style = "default"
-hide_logo = false
+hide_logo = true
 
 [clock]
 enabled = true
@@ -14,6 +14,8 @@ date_format = "%A, %x"
 
 [output]
 use_synced_settings = true
+width = 1920
+height = 1200
 
 [auth]
 allow_empty_password = false
