@@ -5,6 +5,7 @@ auto_update = "official"
 [plugin_settings."yuuto/arch-updater"]
 aur_helper = "yay"
 terminal = "kitty"
+update_mode = "terminal"
 
 auto_check_hours = 6
 flatpak_enabled = false
