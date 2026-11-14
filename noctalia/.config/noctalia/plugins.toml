@@ -1,0 +1,19 @@
+[plugins]
+enabled = ["yuuto/arch-updater"]
+auto_update = "official"
+
+[plugin_settings."yuuto/arch-updater"]
+aur_helper = "yay"
+terminal = "kitty"
+
+auto_check_hours = 6
+flatpak_enabled = false
+
+notify_on_updates = false
+config_review = true
+
+[widget.arch-updater]
+type = "yuuto/arch-updater:widget"
+show_count = true
+hide_on_empty = false
+config_badge = true

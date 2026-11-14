@@ -1,9 +1,6 @@
 [theme]
 mode = "dark"
 
-[bar.default]
-position = "top"
-
 [idle.behavior.lock]
 timeout = 600
 action = "lock"

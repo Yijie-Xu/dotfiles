@@ -1,0 +1,36 @@
+[bar.default]
+position = "top"
+enabled = true
+auto_hide = false
+reserve_space = true
+layer = "top"
+
+thickness = 34
+margin_edge = 16
+margin_ends = 16
+margin_opposite_edge = 0
+
+radius = 12
+concave_edge_corners = false
+background_opacity = 0.9
+border_width = 0.0
+capsule = false
+
+padding = 12
+widget_spacing = 8
+font_family = ""
+font_scale = 1.0
+
+start = ["workspaces"]
+center = ["clock"]
+end = ["arch-updater", "tray", "volume", "notifications", "control-center"]
+
+[widget.workspaces]
+style = "regular"
+show_labels = true
+label_source = "id"
+hide_when_empty = false
+focused_color = "primary"
+
+[widget.clock]
+format = "{:%m-%d %a  %H:%M}"
